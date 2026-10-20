@@ -1,0 +1,6 @@
+{
+  "name": "AutoRepuestos Pro",
+  "description": "Tienda virtual de repuestos automotrices, catálogo con compatibilidad vehicular, gestión de inventario, pedidos y módulo de marketing digital.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
