@@ -339,6 +339,10 @@ export const ProductCatalog: React.FC = () => {
                         <img
                           src={product.imageUrl}
                           alt={product.name}
+                          loading="lazy"
+                          decoding="async"
+                          width="720"
+                          height="540"
                           referrerPolicy="no-referrer"
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                         />

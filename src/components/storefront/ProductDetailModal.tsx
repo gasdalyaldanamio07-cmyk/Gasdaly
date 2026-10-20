@@ -61,6 +61,9 @@ export const ProductDetailModal: React.FC = () => {
                 <img
                   src={product.imageUrl}
                   alt={product.name}
+                  decoding="async"
+                  width="720"
+                  height="540"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
                 />

@@ -67,6 +67,10 @@ export const Hero: React.FC = () => {
           alt="AutoRepuestos Pro Taller Central y Catálogo de Precisión"
           className="w-full h-full object-cover object-center opacity-35 filter brightness-95"
           referrerPolicy="no-referrer"
+          fetchPriority="high"
+          decoding="async"
+          width="1440"
+          height="810"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/90 to-slate-950/75" />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-slate-950/50" />
